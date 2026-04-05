@@ -15,14 +15,15 @@ export QT_DIR=qt6
 
 # Deploy dependencies
 quick-sharun /usr/bin/optiimage \
-/usr/bin/oxipng    \
-/usr/bin/scour     \
 /usr/bin/anim_diff \
 /usr/bin/anim_dump \
 /usr/bin/cwebp     \
 /usr/bin/dwebp     \
 /usr/bin/gif2webp  \
 /usr/bin/img2webp  \
+/usr/bin/jpegoptim \
+/usr/bin/oxipng    \
+/usr/bin/scour     \
 /usr/bin/webpinfo  \
 /usr/bin/webpmux
 
