@@ -6,7 +6,12 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm optiimage
+pacman -Syu --noconfirm \
+    jpegoptim     \
+    libwebp-utils \
+    optiimage     \
+    oxipng        \
+    scour
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
