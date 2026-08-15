@@ -28,8 +28,6 @@ quick-sharun /usr/bin/optiimage \
 /usr/bin/webpinfo  \
 /usr/bin/webpmux
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 
